@@ -1,11 +1,17 @@
+body {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0%;
+}
 .box {
-    height: 200px;
+    height: 220px;
     width: 300px;
-    background-color: aqua;
+    color: white;
+    border: 1px solid white;
+    backdrop-filter: blur(4px);
     text-align: center;
     border-radius: 10px;
-    margin-left: 40%;
-    margin-top: 16%;
+    margin: 16% 0 0 40%;
 }
 button{
     padding: 10px;
